@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Post a consultation</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="post">
+  <main class="phone-frame">
+    <section class="device-ui">
+      <div class="status-bar"><span>📶 📡 🔋</span><span>21:58</span></div>
+      <div class="screen">
+        <h1 class="page-title">Post a consultation</h1>
+        <div class="stack">
+          <input class="field" placeholder="Enter the post title">
+          <div>
+            <h3 style="margin-bottom:6px;">Legal field</h3>
+            <div class="chips">
+              <button class="chip active">lawyer</button>
+              <button class="chip">Law office</button>
+              <button class="chip">a judge</button>
+            </div>
+          </div>
+          <div>
+            <h3 style="margin-bottom:6px;">Type of consultation</h3>
+            <div class="chips">
+              <button class="chip active">Text chat</button>
+              <button class="chip">Voice call</button>
+            </div>
+          </div>
+          <textarea rows="5" placeholder="Enter description"></textarea>
+          <input class="field" placeholder="$ Enter the price">
+          <button class="btn btn-gold" data-action="toast" data-message="تم نشر الاستشارة">Post</button>
+        </div>
+      </div>
+      <nav class="bottom-nav">
+        <a data-nav="settings" href="./settings.html">⚙</a>
+        <a data-nav="home" href="./home.html">⌂</a>
+        <a data-nav="ai" href="./ai.html">AI</a>
+        <a data-nav="chats" href="./show-people-for-chat.html">💬</a>
+      </nav>
+      <div class="toast"></div>
+    </section>
+  </main>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>

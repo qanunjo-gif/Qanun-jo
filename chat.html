@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>chat</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="chat">
+  <main class="phone-frame">
+    <section class="device-ui">
+      <div class="status-bar"><span>📶 📡 🔋</span><span>21:58</span></div>
+      <div class="screen">
+        <div class="top-row">
+          <a href="./show-people-for-chat.html" class="btn btn-ice" style="width:auto;text-decoration:none;padding:7px 10px;">رجوع</a>
+          <h1 class="page-title" style="font-size:26px;margin:0;">Name</h1>
+          <div class="avatar">👤</div>
+        </div>
+
+        <div class="chat-bubble">Hello , Mr{Name}</div>
+        <div class="chat-bubble outgoing">Welcome , Mr{Name}</div>
+        <div class="chat-bubble" style="min-height:125px;"></div>
+
+        <div class="message-box mt-10">
+          <button class="mini-btn">＋</button>
+          <button class="mini-btn">🎤</button>
+          <input type="text" placeholder="Hello Mr,{Name}">
+          <button class="send-btn" data-action="toast" data-message="تم ارسال الرسالة">➤</button>
+        </div>
+      </div>
+
+      <nav class="bottom-nav">
+        <a data-nav="settings" href="./settings.html">⚙</a>
+        <a data-nav="home" href="./home.html">⌂</a>
+        <a data-nav="ai" href="./ai.html">AI</a>
+        <a data-nav="chats" href="./show-people-for-chat.html">💬</a>
+      </nav>
+      <div class="toast"></div>
+    </section>
+  </main>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>
